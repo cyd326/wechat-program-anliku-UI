@@ -1,0 +1,181 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  background-color: #F2F3F5;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 5px;
+  z-index: 10;
+}
+.search-dropdown {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.arrow-search {
+  margin-left: 5px;
+}
+.arrow-filter {
+  margin-left: -7px;
+}
+.dropdown-menu-short {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 25%; /* Set to shorter width */
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 20;
+}
+.filter-dropdown-long {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 90%; /* Set to longer width */
+  background: #ffffff;
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  z-index: 20;
+}
+.dropdown-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+.selected {
+  color: #4285f4;
+}
+.search-input {
+  flex: 1;
+  height: 100%;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+}
+.search-button {
+  width: 40px;
+  height: 40px;
+  background-color: #4285f4;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 5px 5px 0;
+}
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+.tab {
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.tab.active {
+  border-bottom: 5px solid #4285f4;
+}
+.filters {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+.filter {
+  position: relative;
+  cursor: pointer;
+}
+.filter text {
+  margin-left: 5px;
+}
+.filter text.open {
+  transform: rotate(180deg);
+}
+.filter-dropdown-location,
+.filter-dropdown-position,
+.filter-dropdown-studyLocation,
+.filter-dropdown-studyInstitution {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 90%; /* Set to longer width */
+  background: #ffffff;
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  z-index: 20;
+}
+.filter-dropdown-location view,
+.filter-dropdown-position view,
+.filter-dropdown-studyLocation view,
+.filter-dropdown-studyInstitution view {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.filter-dropdown-location view:hover,
+.filter-dropdown-position view:hover,
+.filter-dropdown-studyLocation view:hover,
+.filter-dropdown-studyInstitution view:hover {
+  background: #f0f0f0;
+}
+.filter-dropdown-item {
+  border-bottom: 1px solid #eee;
+}
+.filter-dropdown-item1 {
+  border-bottom: 1px solid #eee;
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.nav-item text {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.nav-item.active uni-icons,
+.nav-item.active text {
+  color: #4285f4;
+}
+.mianjings {
+  width: 100%;
+  flex: 1;
+}
+.card-list {
+  width: 100%;
+}

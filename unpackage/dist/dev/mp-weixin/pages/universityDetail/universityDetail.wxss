@@ -1,0 +1,100 @@
+
+.container {
+  padding: 20px;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.university-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.university-logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.university-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+.university-name {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+  text-align: center;
+}
+.user-info {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.user-section {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.user-text {
+  font-size: 14px;
+  color: #666;
+}
+.user-value {
+  font-size: 16px;
+  color: #333;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+.section-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.description-text {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+.soft-skills-text {
+  color: #999999; /* Set the text color to gray */
+}
+.watermark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.watermark-image {
+  width: 80%;
+  opacity: 0.1;
+}
+.watermark-text {
+  font-size: 14px;
+  color: #999999;
+  margin-top: 10px;
+}

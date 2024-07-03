@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/unified/unified",
+    "pages/companySubpage/companySubpage",
+    "pages/universitySubpage/universitySubpage",
+    "pages/companyDetail/companyDetail",
+    "pages/universityDetail/universityDetail",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}
